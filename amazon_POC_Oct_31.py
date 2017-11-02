@@ -161,6 +161,4 @@ writer.save()
     
 #file = "D:/Users/Public/Documents/Python Scripts/" + filename + file_format
 #os.startfile(file)
-## end of function
-
 
