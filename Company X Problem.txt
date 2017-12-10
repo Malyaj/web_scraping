@@ -1,0 +1,17 @@
+
+Company X Problem:
+
+
+Company X relies upon telemarketing to sell products. 
+
+The Sales head of the company has hired you to conduct in depth exploratory analyses on the historical data. The objective of the assignemnt is to identify sales pattern 
+using all possible combinations of the available fields and implement learnings to drive overall sales (Revenue)
+
+Your project lead wants to utilise the opportunity and prepare a business development case for predictive modelling assignment. The lead has asked you to explore 
+different avaliable techniques and preapre a short note on the technique which can be implemented on the business. The lead has also requested you to prepare 
+the objective of the model, list additional data requirement and briefly decribe the model- include steps and possible impact on the business.
+(Note you do not need to actually build a predictive model).
+
+The column headers are self explanatory, with the 'Sale' column indicating whether a sale was made or not when X called the customer.
+
+—————————————————————————————————————————————————————————————————————————————————————————
