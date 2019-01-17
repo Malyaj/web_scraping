@@ -20,7 +20,6 @@ options.add_argument("download.default_directory={d}".format(d=download_path))
 # initializing the driver
 driver = webdriver.Chrome(options=options)
 
-
 driver.get(url)
 username_field = driver.find_element_by_name("username")
 password_field = driver.find_element_by_name("password")
@@ -29,14 +28,25 @@ password_field.send_keys(key)
 submit_field = driver.find_element_by_name("submitFrm")
 submit_field.click()
 
+# listing the frames on the page
+frame_list = driver.find_elements_by_tag_name('frame')
+
+for each in frame_list:
+    print(each)
+
+'''
+# sqitching to frame
+frame_id = driver.find_element_by_id('mycase')
+driver.switch_to.frame(frame_id)
+
 xpath = """//*[@id="divCond_13756759"]/td[2]/a"""
-
 elem = driver.find_element_by_xpath(xpath)
+#print(elem.text)
+elem.click()
 
-print(elem.text)
+
 
 # closing the browser
 driver.close()
 
-
-
+'''
