@@ -1,5 +1,5 @@
-SSO = "503048674"
-key = "ssap@7878ge"
+SSO = "SSO here"
+key = "key here"
 
 import os
 from selenium import webdriver
